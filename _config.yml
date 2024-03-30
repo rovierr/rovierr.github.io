@@ -1,0 +1,2 @@
+timezone: "Europe/Lisbon"
+include: [".well-known"]
