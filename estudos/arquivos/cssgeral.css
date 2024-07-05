@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.ascii-top {
+    text-align: center;
+    margin: 20px 0;
+    color: red;
+}
+
+.activity {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.typing {
+    border-right: .15em solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: caret 0.7s steps(1) infinite;
+}
+
+@keyframes caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+.asciimodelo{
+    text-align: center;
+}
+
+.textoOSI{
+    text-align: left;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    text-decoration: underline;
+}
+
+.linktemplo{
+    color: red
+}
