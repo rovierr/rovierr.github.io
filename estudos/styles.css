@@ -44,23 +44,36 @@ body {
 .posts ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .posts li {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     justify-content: space-between;
+    align-items: center;  /* Alinhar verticalmente os itens */
     margin-bottom: 0.5em;
+    transition: background-color 0.3s;
 }
 
 .posts a {
     color: #7aa2f7;
     text-decoration: none;
+    padding: 0.5em;
+    transition: background-color 0.3s;
 }
 
 .posts span {
     color: #6b7280;
     margin-left: 10px;
+    padding: 0.5em;
+}
+
+.posts li:hover {
+    background-color: #2d3341;
+}
+
+.posts li:hover a {
+    background-color: #2d3341;
 }
 
 .footer {

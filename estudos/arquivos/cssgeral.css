@@ -1,94 +1,78 @@
 body {
-    background-color: black;
-    color: rgb(255, 255, 255);
+    background-color: #1c1e26;
+    color: #c0caf5;
     font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
-    text-align: center;
-}
-
-header {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-header img {
-    width: 120px;
-    height: auto;
-    margin-right: 20px;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
-.ascii-top {
-    text-align: center;
-    margin: 20px 0;
-    color: red;
-}
-
-.activity {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.typing {
-    border-right: .15em solid white;
-    white-space: nowrap;
+    height: 100vh;
+    margin: 0;
     overflow: hidden;
-    animation: caret 0.7s steps(1) infinite;
 }
 
-@keyframes caret {
-    from, to {
-        border-color: transparent;
-    }
-    50% {
-        border-color: black;
-    }
+.tilde-column {
+    background-color: #1c1e26;
+    color: #6b7280;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 10px;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
-a {
-    color: blue;
-    text-decoration: none;
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
-.asciimodelo{
+
+.container {
     text-align: center;
 }
 
-.textoOSI{
-    text-align: left;
-    font-size: 20px;
+.title {
+    font-size: 2em;
+    margin-bottom: 0.2em;
 }
 
-a:hover {
-    text-decoration: underline;
+.subtitle {
+    margin-bottom: 1.5em;
+    color: #6b7280;
 }
 
-footer {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.social-links {
-    list-style-type: none;
+.posts ul {
+    list-style: none;
     padding: 0;
 }
 
-.social-links li {
-    display: inline;
-    margin-right: 10px;
+.posts li {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 
-.social-links li a {
-    color: white;
+.posts a {
+    color: #7aa2f7;
     text-decoration: none;
 }
 
-.social-links li a:hover {
-    text-decoration: underline;
+.posts span {
+    color: #6b7280;
+    margin-left: 10px;
 }
 
-.linktemplo{
-    color: red
+.footer {
+    margin-top: 2em;
+}
+
+.footer a {
+    color: #7aa2f7;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer a:last-child {
+    margin-right: 0;
 }
