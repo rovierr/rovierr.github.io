@@ -3,43 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Osi Model</title>
+    <title>wait</title>
     <link rel="stylesheet" href="cssgeral.css">
 </head>
 <body>
     <pre class="asciimodelo">
-
-    </pre>
-
-    <pre class="textoOSI">
-<h2>Regras:</h2>
-
-Regra da interação vertical: Cada camada só se relaciona com as camadas adjacentes cada camada recebe os serviços prestados pela camada anterior, acrescenta os seus serviços e entrega a camada seguinte.
-
-
-Regra da interação horizontal: Uma determinada camada relaciona-se com a camada homóloga do outro sistema.
-
-
-<h2>CAMADAS</h2>
-Camada 7: A camada de aplicação faz interface entre o protocolo de comunicação e o aplicativo que pediu ou receberá a informação através da rede.
-
-
-Camada 6: Esta camada tem como finalidade converter a representação da informação para formato universal. Pode ter outros usos, como compreensão de dados e criptografia.
-
-
-Camada 5: A camada sessão permite que duas aplicações em computadores diferentes estabeleçam uma sessão de comunicação.<br>Nesta sessão, essas aplicações definem como será feita a transmissão de dados e coloca marcações nos dados que estão sendo transmitidos. <br>Se por ventura a rede falhar os computadores reiniciam a transmissão dos dados a partir da ultima marcação recebida pelo computador receptor.
-
-
-Camada 4: A camada de transporte prepara os dados para serem transportados. <br>Sempre que o bloco de dados inicial (recebido da camada anterior) ultrapassa o tamanho máximo da embalagem que pode ser transportável, esta camada divide o bloco de dados em fragmentos. <br>Cada fragmento é embalado numa embalagem chamada de segmento, esta camada inclui outros funções como controlo de fluxo de dados, correção de erros, ordenação de dados. <br>Cada segmento é enviado para a camada de rede.
-
-
-Camada 3: Esta camada recebe o segmento da camada de transporte e embala-o numa nova embalagem chamada de pacote.<br>Ao pacote são adicionadas informações que permitem que este possa viajar em diferentes redes e chegar ao seu destino. <br>Esta camada é também pelo endereçamento universal dos pacotes e converte endereços físicos em lógicos e vice-versa.
-
-
-Camada 2: Esta camada preocupa-se com a conexão de pontos de rede no mesmo segmento de rede local. <br>Recebe o pacote da camada 3 e embala-o numa nova embalagem chamada de Quadro ou Frames <br>os quadros são endereçados com endereços físicos (MAC Address) ou tipo de endereçamento usado pelo protocolo de conexão de dispositivo da rede.
-
-
-Camada 1: Esta camada recebe o quadro da camada 2 e na sua forma mais elemental (bits) e transforma-os nos sinais adequados ao meio de transmissão <br>(sinal elétrico, luminoso ou eletromagnético) do ponto de vista do receto faz o inverso. <br>Esta camada define ainda as características do meio de transmissão (voltagem, potência, sensibilidade ao meio), taxa de transferência dos bits.
-    </pre>
+                                           .""--..__
+                     _                     []       ``-.._
+                  .'` `'.                  ||__           `-._
+                 /    ,-.\                 ||_ ```---..__     `-.
+                /    /:::\\               /|//}          ``--._  `.
+                |    |:::||              |////}                `-. \
+                |    |:::||             //'///                    `.\
+                |    |:::||            //  ||'                      `|
+                /    |:::|/        _,-//\  ||
+               /`    |:::|`-,__,-'`  |/  \ ||
+             /`  |   |'' ||           \   |||
+           /`    \   |   ||            |  /||
+         |`       |  |   |)            \ | ||
+        |          \ |   /      ,.__    \| ||
+        /           `         /`    `\   | ||
+       |                     /        \  / ||
+       |                     |        | /  ||
+       /         /           |        `(   ||
+      /          .           /          )  ||
+     |            \          |     ________||
+    /             |          /     `-------.|
+   |\            /          |              ||
+   \/`-._       |           /              ||
+    //   `.    /`           |              ||
+   //`.    `. |             \              ||
+  ///\ `-._  )/             |              ||
+ //// )   .(/               |              ||
+ ||||   ,'` )               /              //
+ ||||  /                    /             || 
+ `\\` /`                    |             // 
+     |`                     \            ||  
+    /                        |           //  
+  /`                          \         //   
+/`                            |        ||    
+`-.___,-.      .-.        ___,'        (/    
+         `---'`   `'----'`
+    <pre>
 </body>
 </html>
