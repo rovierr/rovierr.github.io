@@ -75,10 +75,7 @@ a {
 
 .posts li:hover {
     background-color: #2d3341;
-}
-
-.posts li:hover a {
-    background-color: #2d3341;
+    border-radius: 20px;
 }
 
 .footer {
