@@ -1,11 +1,16 @@
 body {
     background-color: #1c1e26;
-    color: #c0caf5;
+    color: rgb(255, 192, 203);
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     height: 100vh;
     margin: 0;
     overflow: hidden;
+}
+
+
+a {
+    color: pink;
 }
 
 .tilde-column {
@@ -38,7 +43,7 @@ body {
 
 .subtitle {
     margin-bottom: 1.5em;
-    color: #6b7280;
+    color: #806b70;
 }
 
 .posts ul {
@@ -56,7 +61,7 @@ body {
 }
 
 .posts a {
-    color: #7aa2f7;
+    color: rgb(255, 192, 203);
     text-decoration: none;
     padding: 0.5em;
     transition: background-color 0.3s;
@@ -81,7 +86,7 @@ body {
 }
 
 .footer a {
-    color: #7aa2f7;
+    color: rgb(255, 192, 203);
     text-decoration: none;
     margin-right: 15px;
 }
