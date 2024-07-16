@@ -20,7 +20,13 @@ header img {
     border-radius: 5px;
 }
 
-.ascii-art {
+.text-page1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.art-ascii{
+    color: rgb(255, 192, 203);
     text-align: center;
     margin: 20px 0;
 }
