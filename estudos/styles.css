@@ -50,6 +50,7 @@ a {
     list-style: none;
     padding: 0;
     margin: 0;
+   
 }
 
 .posts li {
@@ -58,6 +59,7 @@ a {
     align-items: center;  
     margin-bottom: 0.5em;
     transition: background-color 0.3s;
+    border-radius: 20px;
 }
 
 .posts a {
@@ -76,6 +78,7 @@ a {
 .posts li:hover {
     background-color: #2d3341;
     border-radius: 20px;
+    
 }
 
 .footer {
