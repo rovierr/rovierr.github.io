@@ -50,7 +50,7 @@ body {
 .posts li {
     display: flex;
     justify-content: space-between;
-    align-items: center;  /* Alinhar verticalmente os itens */
+    align-items: center;  
     margin-bottom: 0.5em;
     transition: background-color 0.3s;
 }
