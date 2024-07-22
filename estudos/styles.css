@@ -1,6 +1,6 @@
 body {
     background-color: #1c1e26;
-    color: rgb(255, 192, 203);
+    color: rgb(70, 150, 211);
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     height: 100vh;
@@ -63,7 +63,7 @@ a {
 }
 
 .posts a {
-    color: rgb(255, 192, 203);
+    color: rgb(70, 150, 211);
     text-decoration: none;
     padding: 0.5em;
     transition: background-color 0.3s;
@@ -86,7 +86,7 @@ a {
 }
 
 .footer a {
-    color: rgb(255, 192, 203);
+    color: rgb(70, 150, 211);
     text-decoration: none;
     margin-right: 15px;
 }
