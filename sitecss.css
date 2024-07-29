@@ -26,7 +26,7 @@ header img {
 }
 
 .art-ascii{
-    color: rgb(70, 150, 211);
+    color: rgb(182, 64, 64);
     text-align: center;
     margin: 20px 0;
 }
@@ -48,12 +48,12 @@ header img {
         border-color: transparent;
     }
     50% {
-        border-color: rgb(28,30,38);
+        border-color: rgb(182, 64, 64);
     }
 }
 
 a {
-    color: rgb(70, 150, 211);
+    color: rgb(182, 64, 64);
     text-decoration: none;
 }
 
