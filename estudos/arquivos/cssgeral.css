@@ -28,5 +28,10 @@ h5{
     display: block;
     margin: 0 auto;
     width: 600px;
+    border-radius: 20px;
 }
 
+.conta{
+    text-align: center;
+    font-size: 25px;
+}
