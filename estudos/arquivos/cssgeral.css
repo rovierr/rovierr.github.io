@@ -2,77 +2,31 @@ body {
     background-color: #1c1e26;
     color: #c0caf5;
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
     height: 100vh;
-    margin: 0;
-    overflow: hidden;
 }
 
-.tilde-column {
-    background-color: #1c1e26;
-    color: #6b7280;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: right;
-    padding: 10px;
-    height: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
-.container {
+h1{
     text-align: center;
 }
 
-.title {
-    font-size: 2em;
-    margin-bottom: 0.2em;
+h2{
+    text-align: center;
 }
 
-.subtitle {
-    margin-bottom: 1.5em;
-    color: #6b7280;
+h3{
+    text-align: center;
 }
 
-.posts ul {
-    list-style: none;
-    padding: 0;
+h4{
+    text-align: center;
 }
 
-.posts li {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    margin-bottom: 0.5em;
+h5{
+    text-align: center;
+}
+.circuitoimg{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
 }
 
-.posts a {
-    color: #7aa2f7;
-    text-decoration: none;
-}
-
-.posts span {
-    color: #6b7280;
-    margin-left: 10px;
-}
-
-.footer {
-    margin-top: 2em;
-}
-
-.footer a {
-    color: #7aa2f7;
-    text-decoration: none;
-    margin-right: 15px;
-}
-
-.footer a:last-child {
-    margin-right: 0;
-}
