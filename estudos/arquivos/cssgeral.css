@@ -3,37 +3,55 @@ body {
     color: #c0caf5;
     font-family: 'Courier New', Courier, monospace;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    margin: 0;
+    padding-top: 20px; 
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
-h1{
+h1 {
     color: #B64040;
 }
 
-h2{
+h2 {
     color: #B64040;
 }
 
-h3{
+h3 {
     color: #B64040;
 }
 
-.circuitoimg{
+.circuitoimg {
     display: block;
     margin: 0 auto;
     width: 600px;
     border-radius: 20px;
 }
 
-.conta{
+.conta {
     text-align: center;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
 }
 
-.vermelho{
+.vermelho {
     color: #B64040;
 }
 
+.card {
+    background-color: #23272a;
+    border-radius: 20px;
+    padding: 155px;  
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 700px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
