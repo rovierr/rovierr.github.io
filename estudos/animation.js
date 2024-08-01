@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const text = "this site will get better soon";
     let index = 0;
-    const typingSpeed = 100; // Speed in milliseconds
+    const typingSpeed = 100; 
 
     function type() {
         if (index < text.length) {
