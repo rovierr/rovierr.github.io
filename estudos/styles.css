@@ -1,6 +1,6 @@
 body {
     background-color: #1c1e26;
-    color: rgb(182, 64, 64);
+    color: rgb(170, 182, 644);
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     height: 100vh;
@@ -39,6 +39,7 @@ a {
 .title {
     font-size: 2em;
     margin-bottom: 0.2em;
+    color: rgb(170, 182, 64);
 }
 
 .subtitle {
@@ -63,7 +64,7 @@ a {
 }
 
 .posts a {
-    color: rgb(182, 64, 64);
+    color: rgb(170, 182, 64);
     text-decoration: none;
     padding: 0.5em;
     transition: background-color 0.3s;
@@ -86,7 +87,7 @@ a {
 }
 
 .footer a {
-    color: rgb(182, 64, 64);
+    color: rgb(170, 182, 64);
     text-decoration: none;
     margin-right: 15px;
 }
